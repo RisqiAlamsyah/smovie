@@ -26,3 +26,11 @@ html::-webkit-scrollbar,
     color: #fff;
 }
 
+.modal-footer .btn{
+    background-color: #9B59B6;
+}
+
+.modal-footer .btn:hover{
+    background-color: #11101D;
+}
+
