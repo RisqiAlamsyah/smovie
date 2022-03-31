@@ -1,178 +1,87 @@
 <!doctype html>
 <html lang="en">
-<head>
+    <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="index.css">
 
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <title>SMOVIE || SIJA 2</title>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark ps-3 pe-3 fixed-top">
-        <div class="container">
-            <a class="navbar-brand fs-2 logo" href="home.html">
-                <img src="assets/logo.png" alt="smovie"  class="img-fluid">
+    <title>SMOVIE</title>
+    </head>
+    <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">    
+            <a class="navbar-brand logo" href="index.html">
+                <img src="assets/logo.png" alt="smovie" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#profile">Profile</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <!-- <a class="nav-item nav-link active" href="#">Search Movie</a> -->
+                </div>
             </div>
         </div>
     </nav>
-    <!-- End Navbar -->
 
-    <!-- Home -->
-    <section id="home">
-        <div class="container">
-            <div class="row text-center align-items-center justify-content-between">
-                <div class="col-md-6 col-sm-6 col-xs-6 pt-5 pb-5 vektor" data-aos="fade-right" data-aos-duration="800">
-                    <img src="assets/vektor.png" alt="smovie" class="img-fluid">
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-6" data-aos="fade-left" data-aos-duration="800">
-                    <a href="index.html" class="fs-1">Get Started</a>
-                </div>
-            </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="pt-5"><path fill="#ffffff" fill-opacity="1" d="M0,96L20,112C40,128,80,160,120,149.3C160,139,200,85,240,58.7C280,32,320,32,360,80C400,128,440,224,480,229.3C520,235,560,149,600,106.7C640,64,680,64,720,90.7C760,117,800,171,840,176C880,181,920,139,960,117.3C1000,96,1040,96,1080,133.3C1120,171,1160,245,1200,240C1240,235,1280,149,1320,117.3C1360,85,1400,107,1420,117.3L1440,128L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
-    </section>
-    <!-- End Home -->
+    <div class="container">
 
-    <!-- About -->
-    <section id="about">
-        <div class="container">
-            <div class="row text-center fs-1 fw-bold pb-4" data-aos="fade-up" data-aos-duration="600">
-                <div class="col">
-                    <p>About SMOVIE</p>
-                </div>
-            </div>
-            <div class="row text-dark justify-content-between align-items-center">
-                <div class="col-md-4 pb-2" data-aos="fade-up" data-aos-duration="800">
-                    <div class="card">
-                        <div class="card-body p-5">
-                            <h5 class="card-title">Website Rekomendasi Film Gratis</h5>
-                            <p class="card-text">SMOVIE adalah sumber website yang menyajikan rekomendasi berbagai film terbaik di seluruh dunia, yang pastinya bagus dan berkualitas. Fitur yang terdapat dalam SMOVIE yaitu menampilkan deskripsi sinopsis dan trailer pada suatu film.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pb-2" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="card">
-                        <div class="card-body p-5">
-                            <h5 class="card-title">Tujuan Dibuatnya Website</h5>
-                            <p class="card-text">Untuk mempermudah para pecinta film dalam melihat alur cerita apa yang akan di sajikan pada film tersebut dan sedikit dari potongan film nya.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pb-2" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="card">
-                        <div class="card-body p-5">
-                            <h5 class="card-title">Dapatkan Kemudahan Melalui SMOVIE</h5>
-                            <p class="card-text">Jadi, apabila teman - teman membutuhkan rekomendasi film dengan melihat sinopsis atau video trailernya terlebih dahulu. Sekarang kita tidak perlu repot lagi mencari satu - satu di internet, tinggal buka website SMOVIE saja semua film sudah tersedia di sini.</p>
-                        </div>
+        <div class="row mt-3 justify-content-center">
+            <div class="col-md-8">
+                <h1 class="text-center">Search Movie</h1>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Movie title.." id="search-input">
+                    <div class="input-group-append">
+                        <button class="btn" type="button" id="search-button">Search</button>
                     </div>
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#11101d" fill-opacity="1" d="M0,96L20,112C40,128,80,160,120,149.3C160,139,200,85,240,58.7C280,32,320,32,360,80C400,128,440,224,480,229.3C520,235,560,149,600,106.7C640,64,680,64,720,90.7C760,117,800,171,840,176C880,181,920,139,960,117.3C1000,96,1040,96,1080,133.3C1120,171,1160,245,1200,240C1240,235,1280,149,1320,117.3C1360,85,1400,107,1420,117.3L1440,128L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
-    </section>
-    <!-- End About -->
 
-    <!-- Profile -->
-    <section id="profile">
-        <div class="container">
-            <div class="row text-center text-white fs-1 fw-bold pb-4" data-aos="fade-up" data-aos-duration="600">
-                <div class="col">
-                    <p>Profile</p>
-                </div>
+        <hr>
+
+        <div class="row" id="movie-list">
+            
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Movie Search</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
             </div>
-            <div class="row text-center text-white pb-5">
-                <div class="col-md-3 pb-2" data-aos="fade-up" data-aos-duration="800">
-                    <div class="card">
-                        <center><img src="assets/denisa.jpg" class="card-img-top rounded-circle img-thumbnail" alt="..."></center>
-                        <div class="card-body">
-                            <h5 class="card-title">DENISA PUTRI AFRILLIA</h5>
-                            <p class="card-text">UI DESIGN</p>
-                            <a href="https://instagram.com/dxthv_?utm_medium=copy_link" target="_blank" class="btn">Instagram</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 pb-2" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="card">
-                        <center><img src="assets/fira.jpg" class="card-img-top rounded-circle img-thumbnail" alt="..."></center>
-                        <div class="card-body">
-                            <h5 class="card-title">FIRA KURNIA PUTRI</h5>
-                            <p class="card-text">BACKEND</p>
-                            <a href="https://instagram.com/fira_krnia?utm_medium=copy_link" target="_blank" class="btn">Instagram</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 pb-2" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="card">
-                        <center><img src="assets/novy.jpg" class="card-img-top rounded-circle img-thumbnail" alt="..."></center>
-                        <div class="card-body">
-                            <h5 class="card-title">NOVY DIAH R</h5>
-                            <p class="card-text">FRONTEND</p>
-                            <a href="https://instagram.com/qoutes_bucin.301?utm_medium=copy_link" target="_blank" class="btn">Instagram</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3" data-aos="fade-up" data-aos-duration="1400">
-                    <div class="card">
-                        <center><img src="assets/risqi.jpg" class="card-img-top rounded-circle img-thumbnail" alt="..."></center>
-                        <div class="card-body">
-                            <h5 class="card-title">RISQI ALAMSYAH</h5>
-                            <p class="card-text">FRONTEND</p>
-                            <a href="https://instagram.com/fcklove_ccp?utm_medium=copy_link" target="_blank" class="btn">Instagram</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-body">
+            ...
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
         </div>
-    </section>
-    <!-- End Profile -->
+        </div>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <i><p class="text-center m-auto">Create with <ion-icon name="heart"></ion-icon> by <b>SMOVIE SIJA 2</b></p></i>
-    </footer>
-    <!-- End Footer -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-    <!-- Icons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
