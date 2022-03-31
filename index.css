@@ -1,0 +1,28 @@
+.element,
+html {
+    scrollbar-width: none
+}
+
+html::-webkit-scrollbar,
+.element::-webkit-scrollbar {
+    display: none
+}
+
+.navbar {
+    background-color: #11101D;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.btn {
+    border: 1px solid #11101D;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #11101D;
+    color: #fff;
+}
+
